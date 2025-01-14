@@ -31,7 +31,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "itfeel469")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002251678119')) #Log channel id ( make sure bot is admin )
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002251678119"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002283993103"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002283993103"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
